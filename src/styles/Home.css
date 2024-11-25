@@ -1,0 +1,93 @@
+/* General Styles for Home Page */
+.home-container {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #f4f4f4; /* Matches global background */
+}
+
+.background-overlay {
+    background-image: url('../assets/bg1.jpg'); /* Absolute path for public assets */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax effect */
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-content {
+    position: relative;
+    z-index: 1; /* Keeps content above background */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+/* Section Cards */
+.section-card {
+    background-color: rgb(255, 255, 255); /* Semi-transparent for contrast */
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 10px #0f0f0f48; /* Consistent shadow */
+    color: rgb(0, 0, 0);
+    text-align: center; /* Center the content inside the section cards */
+}
+
+.section-card-content h2,
+.section-card-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.section-card-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.section-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Goal Cards */
+.goal-cards,
+.activity-cards,
+.event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.goal-card,
+.activity-card,
+.event-card {
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency for visual appeal */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.goal-card:hover,
+.activity-card:hover,
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.event-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}

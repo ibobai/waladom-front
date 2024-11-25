@@ -1,0 +1,161 @@
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white; /* Add a custom background color if needed */
+    border-bottom: 2px solid black;
+  }
+  
+  .logo {
+    flex: 0 0 auto; /* Prevent logo from shrinking or growing */
+    display: flex;
+    align-items: center; /* Center the image vertically */
+  }
+  
+  .logo img {
+    width: 180px; /* Default logo size */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure the logo doesn't exceed its container */
+  }
+
+  
+  
+  /* Profile Section */
+  .profile-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between profile icon and buttons */
+    margin-right: 40px; /* Adjust this to shift left */
+  }
+  
+  .profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Circular profile image */
+    cursor: pointer; /* Indicate clickability */
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
+  /* Login/Logout Button */
+  .auth-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    transition: opacity 0.3s ease;
+  }
+  
+  .auth-button.login {
+    background-color: #3cb371;
+  }
+  
+  .auth-button.logout {
+    background-color: red;
+  }
+  
+  .auth-button:hover {
+    opacity: 0.9; /* Slight fade effect on hover */
+  }
+  
+ /* Search Bar Styling */
+.search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-input {
+  padding: 1rem; /* Use rem for scalable padding */
+  font-size: 1rem; /* Use rem for font scaling */
+  width: clamp(150px, 30vw, 300px); /* Dynamically adjusts width */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease; /* Smooth resizing */
+}
+
+.search-icon {
+  margin-left: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem; /* Use rem for dynamic font scaling */
+  transition: font-size 0.3s ease; /* Smooth resizing */
+}
+  
+  .search-results {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 100;
+  }
+  
+  .search-result-item {
+    padding: 8px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .search-result-item a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .search-result-item a:hover {
+    color: green;
+  }
+
+  .profile-icon {
+    width: clamp(40px, 8vw, 80px); /* Dynamically adjusts width between 40px and 80px */
+    height: clamp(40px, 8vw, 80px); /* Ensure it's a square */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease; /* Smooth resizing */
+  }
+  
+    /* Responsive Design */
+    @media (max-width: 1335px) {
+      .navbar{
+        display: none;
+      }
+      .profile-actions{
+        display: none;
+      }
+
+     .logo img {
+          width: 150px; /* Smaller logo size for smaller screens */
+      } 
+      
+      .logo {
+        width: 24%; /* Make logo container span full width */
+        display: flex;
+        justify-content: left; /* Center logo horizontally */
+      }
+      .search-input {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+        width: clamp(120px, 40vw, 200px); /* Adjust dynamically based on viewport */
+      }
+    
+      .search-icon {
+        font-size: 1.2rem; /* Adjust icon size */
+        margin-left: 0.8rem;
+      }
+
+      .profile-icon {
+        width: clamp(30px, 10vw, 60px); /* Slightly smaller */
+        height: clamp(30px, 10vw, 60px);
+      }
+    }

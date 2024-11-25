@@ -1,0 +1,134 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  line-height: 1.6;
+}
+
+/* Language Switcher (General, outside Navbar) */
+.language-switcher button {
+  padding: 5px 10px;
+  background-color: #3cb371; /* Green color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.language-switcher button:hover {
+  background-color: #2e8b57; /* Slightly darker green */
+}
+
+/* Login Page Styles */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the top, instead of center */
+  height: 100vh;
+  background-color: #f7f7f7;
+  padding-top: 50px; /* Add some space from the top */
+}
+
+.login-box {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #555;
+  display: block;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.input-group input:focus {
+  border-color: #4CAF50; /* Green color on focus */
+}
+
+button.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.login-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.register-link {
+  margin-top: 15px;
+}
+
+.register-link span {
+  color: #4CAF50;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.register-link span:hover {
+  color: #45a049;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

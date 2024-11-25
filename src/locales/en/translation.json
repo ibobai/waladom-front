@@ -1,0 +1,85 @@
+{
+  "home": {
+    "about_title": "About Waladom",
+    "about_description": "Waladom is a community-driven organization dedicated to supporting and empowering the Sudanese community in Darfur and Sudan. Our name, 'Waladom', symbolizes unity and collaboration, reflecting our commitment to bringing people together and working towards a brighter future.",
+    "goals_title": "Our Goals",
+    "goal_1_title": "Education and Awareness",
+    "goal_1_description": "We believe that education is the key to empowering communities. Waladom is committed to providing educational opportunities, training programs, and raising awareness on important rights and social issues. Our goal is to ensure that every member of our community has access to the knowledge and resources they need to thrive.",
+    "goal_2_title": "Economic Development",
+    "goal_2_description": "By supporting small projects and offering training programs focused on income generation, Waladom aims to foster economic independence and improve livelihoods. We envision a community where individuals have the skills and resources to create their own economic opportunities.",
+    "goal_3_title": "Health Awareness and Support",
+    "goal_3_description": "Access to healthcare is a fundamental right, and we aim to promote health education and provide medical support where needed. Through awareness campaigns and health programs, we strive to enhance the well-being of the community and provide support during times of health crises.",
+    "goal_4_title": "Cultural Preservation",
+    "goal_4_description": "As we move forward, it is essential to preserve our cultural heritage for future generations. Waladom works to promote cultural education and encourage the younger generation to embrace and celebrate their identity. Our efforts include organizing cultural events, workshops, and activities that highlight the rich history and traditions of our community.",
+    "future_activities_title": "Future Activities",
+    "future_activity_1_title": "Youth Education Programs",
+    "future_activity_1_description": "We plan to launch a series of educational workshops and school partnerships to ensure that every child in the community has access to quality education. These programs will cover a wide range of subjects, from basic literacy to skills development for future careers.",
+    "future_activity_2_title": "Community Health Clinics",
+    "future_activity_2_description": "To address the healthcare needs of our community, we are organizing mobile health clinics and free medical check-ups. Our goal is to provide essential healthcare services, especially in rural areas where access is limited.",
+    "future_activity_3_title": "Microfinance Initiatives",
+    "future_activity_3_description": "To promote economic growth, Waladom will offer microfinance programs to help individuals start or expand small businesses. We will also provide financial literacy training to ensure sustainable business practices.",
+    "future_activity_4_title": "Cultural Festivals and Exhibitions",
+    "future_activity_4_description": "We aim to host annual cultural festivals and exhibitions that showcase traditional art, music, and dance. These events will help preserve and celebrate our heritage, while fostering pride and unity within the community.",
+    "cultural_events_title": "Cultural Events"
+  },
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "programs": "Programs",
+    "events": "Events",
+    "donate": "Donate",
+    "myRole": "My Role",
+    "myIdCard": "My ID Card"
+  },
+  "footer": {
+    "linksTitle": "Quick Links",
+    "links": [
+      { "label": "Contact Us", "href": "/contact-us" },
+      { "label": "Request Help", "href": "/request-help" },
+      { "label": "Report a Problem", "href": "/report-problem" },
+      { "label": "Give Feedback", "href": "/give-feedback" },
+      { "label": "Suggest Amelioration", "href": "/suggest-amelioration" }
+    ],
+    "socialMediaTitle": "Follow Us",
+    "socialMedia": {
+      "facebook": { "label": "Facebook", "href": "https://www.facebook.com/yourpage" },
+      "twitter": { "label": "Twitter", "href": "https://www.twitter.com/yourpage" },
+      "instagram": { "label": "Instagram", "href": "https://www.instagram.com/yourpage" }
+    },
+    "contactTitle": "Contact Information",
+    "contact": {
+      "email": { "label": "Email", "value": "info@waladam.org" },
+      "phone": { "label": "Phone", "value": "+249123456789" },
+      "address": { "label": "Office Address", "value": "123 Main Street, Khartoum, Sudan" }
+    },
+    "footerNote": "© 2024 Waladom. All rights reserved."
+  },
+  "login": {
+    "title": "Login",
+    "email_or_id_placeholder": "Email or ID",
+    "password_placeholder": "Password",
+    "error_message": "Invalid credentials. Please try again.",
+    "success_message": "Successfully logged in!",
+    "login_button": "Login",
+    "register_link": "Don't have an account? Register here.",
+    "forgot_password_link": "Forgot your password?"
+  },
+  "profile": {
+    "title": "Profile Page",
+    "welcome_message": "Welcome to your profile!"
+  },
+  "notfound": {
+    "title": "404",
+    "message": "Oops! The page you're looking for doesn't exist.",
+    "button": "Go Back Home"
+  },
+  "register": {
+    "title": "Register",
+    "full_name_placeholder": "Full Name",
+    "email_placeholder": "Email",
+    "password_placeholder": "Password",
+    "error_message": "All fields are required!",
+    "register_button": "Register",
+    "login_link": "Already have an account? Login here."
+  }
+}
