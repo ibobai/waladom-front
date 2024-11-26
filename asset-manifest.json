@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/your-repo-name/static/css/main.cfa88b46.css",
+    "main.js": "/your-repo-name/static/js/main.5ea2e29c.js",
+    "static/js/453.b68f585e.chunk.js": "/your-repo-name/static/js/453.b68f585e.chunk.js",
+    "static/media/bg1.jpg": "/your-repo-name/static/media/bg1.c4799f42788dfc739b1a.jpg",
+    "static/media/logoWaladom.png": "/your-repo-name/static/media/logoWaladom.8152772cdc300eaf2b0a.png",
+    "static/media/profile.png": "/your-repo-name/static/media/profile.33e7df0963941edbeb70.png",
+    "index.html": "/your-repo-name/index.html",
+    "main.cfa88b46.css.map": "/your-repo-name/static/css/main.cfa88b46.css.map",
+    "main.5ea2e29c.js.map": "/your-repo-name/static/js/main.5ea2e29c.js.map",
+    "453.b68f585e.chunk.js.map": "/your-repo-name/static/js/453.b68f585e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfa88b46.css",
+    "static/js/main.5ea2e29c.js"
+  ]
+}
