@@ -16,11 +16,13 @@ import ForgotPassword from './pages/ForgotPassword';
 import Unauthorized from './pages/Unauthorized'; // New Unauthorized page
 import MyIDCard from './pages/MyIDCard'; // Protected page
 import MyRole from './pages/MyRole'; // Protected page
+import PayPalIntegrationPage from './pages/PayPalIntegrationPage';
 import ProtectedRoute from './components/ProtectedRoute'; // Route guard
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { AuthProvider } from './context/AuthContext'; // Context for auth
 import NotFound from './pages/NotFound'; // Import the 404 component
+import StripeIntegrationPage from './pages/StripeIntegrationPage';
 import './i18n';
 
 const App = () => {
@@ -41,6 +43,9 @@ const App = () => {
             <Route path="/donate" element={<Donate />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/pay" element={<PayPalIntegrationPage />} />
+            <Route path="/str" element={<StripeIntegrationPage />} />
+
             <Route path="/logout" element={<Logout />} />
             <Route path="/search" element={<SearchResults />} />
             <Route path="/register" element={<Register />} />
